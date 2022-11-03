@@ -1,0 +1,21 @@
+﻿  pch.cpp
+  dllmain.cpp
+C:\Users\Hikaru\source\repos\hunieinternal\hunieinternal\dllmain.cpp(8,41): error C2039: 'vector': is not a member of 'std'
+C:\Users\Hikaru\source\repos\hunieinternal\hunieinternal\predefined C++ types (compiler internal)(341): message : see declaration of 'std'
+C:\Users\Hikaru\source\repos\hunieinternal\hunieinternal\dllmain.cpp(8,47): error C2061: syntax error: identifier 'vector'
+C:\Users\Hikaru\source\repos\hunieinternal\hunieinternal\dllmain.cpp(10,24): error C2065: 'offsets': undeclared identifier
+C:\Users\Hikaru\source\repos\hunieinternal\hunieinternal\dllmain.cpp(12,17): error C2065: 'offsets': undeclared identifier
+C:\Users\Hikaru\source\repos\hunieinternal\hunieinternal\dllmain.cpp(20,5): error C2065: 'FILE': undeclared identifier
+C:\Users\Hikaru\source\repos\hunieinternal\hunieinternal\dllmain.cpp(20,11): error C2065: 'f': undeclared identifier
+C:\Users\Hikaru\source\repos\hunieinternal\hunieinternal\dllmain.cpp(21,16): error C2065: 'f': undeclared identifier
+C:\Users\Hikaru\source\repos\hunieinternal\hunieinternal\dllmain.cpp(21,35): error C2065: 'stdout': undeclared identifier
+C:\Users\Hikaru\source\repos\hunieinternal\hunieinternal\dllmain.cpp(21,5): error C3861: 'freopen_s': identifier not found
+C:\Users\Hikaru\source\repos\hunieinternal\hunieinternal\dllmain.cpp(23,5): error C3861: 'printf': identifier not found
+C:\Users\Hikaru\source\repos\hunieinternal\hunieinternal\dllmain.cpp(24,5): error C3861: 'printf': identifier not found
+C:\Users\Hikaru\source\repos\hunieinternal\hunieinternal\dllmain.cpp(28,57): error C2664: 'HMODULE GetModuleHandleW(LPCWSTR)': cannot convert argument 1 from 'const char [9]' to 'LPCWSTR'
+C:\Users\Hikaru\source\repos\hunieinternal\hunieinternal\dllmain.cpp(28,47): message : Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or parenthesized function-style cast
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\libloaderapi.h(269,1): message : see declaration of 'GetModuleHandleW'
+C:\Users\Hikaru\source\repos\hunieinternal\hunieinternal\dllmain.cpp(32,127): error C2660: 'GetPointerAddress': function does not take 2 arguments
+C:\Users\Hikaru\source\repos\hunieinternal\hunieinternal\dllmain.cpp(8,7): message : see declaration of 'GetPointerAddress'
+C:\Users\Hikaru\source\repos\hunieinternal\hunieinternal\dllmain.cpp(37,20): error C2065: 'f': undeclared identifier
+C:\Users\Hikaru\source\repos\hunieinternal\hunieinternal\dllmain.cpp(37,13): error C3861: 'fclose': identifier not found
